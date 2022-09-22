@@ -19,12 +19,12 @@ This repository contains:
 ## About
 
 ### Dataset
-The dataset used in this repo is the historical data of [Tata Consultancy Services](https://finance.yahoo.com/quote/TCS.NS/history?period1=1029110400&period2=1637971200&interval=1d&frequency=1d&filter=history) from August 12, 2002 to November 26, 2021. The dataset was scraped from [Yahoo Finance](https://finance.yahoo.com) using Selenium. The data from Selenium is parsed using BeautifulSoup and converted to their respective datatypes before storing it in the Pandas dataframe.
+The dataset used in this repo is the historical data of [Tata Consultancy Services](https://finance.yahoo.com/quote/TCS.NS/history?period1=1029110400&period2=1637971200&interval=1d&frequency=1d&filter=history) (a company listed in National Stock Exchange, India) from August 12, 2002 to November 26, 2021. The dataset was scraped from [Yahoo Finance](https://finance.yahoo.com) using Selenium. The data from Selenium is parsed using BeautifulSoup and converted to their respective datatypes before storing it in the Pandas dataframe.
 
 ### Model
-A stacked 2 layered-LSTM model followed by a Dense layer is employed. The inputs from the training dataset are concatenated with their true values whereas the inputs from the test dataset is concatenated with all zeroes. The model is expected to predict the true values of the test dataset. Shown below is a stacked LSTM model. <br>
+A stacked 2 layered-LSTM model followed by a Dense layer is employed. The inputs from the training dataset are concatenated with their true values whereas the inputs from the test dataset is concatenated with all zeroes. The model is expected to predict the true values of the test dataset. Shown below is a stacked LSTM model.
 
-<br> The hyper-parameters can be changed in the [python file](Code.py). <br>
+<br> The hyper-parameters can be changed in the [python file](Code.py).
 
 
 ## To Run
@@ -42,12 +42,8 @@ keras
 ```
 
 Download the following files in the same directory.
-
-
 ```
-
 Code.py 
-
 ```
 
 Run Code.py 
