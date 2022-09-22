@@ -24,7 +24,7 @@ The dataset used in this repo is the historical data of [Tata Consultancy Servic
 ### Model
 A stacked 2 layered-LSTM model followed by a Dense layer is employed. The inputs from the training dataset are concatenated with their true values whereas the inputs from the test dataset is concatenated with all zeroes. The model is expected to predict the true values of the test dataset. Shown below is a stacked LSTM model.
 
-<br> The hyper-parameters can be changed in the [python file](Code.py).
+The hyper-parameters can be changed in the [python file](Code.py).
 
 
 ## To Run
