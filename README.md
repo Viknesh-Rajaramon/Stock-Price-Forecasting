@@ -31,7 +31,7 @@ The hyper-parameters can be changed in the [python file](Code.py).
 ## Output
 Forecasted price vs Actual price<br>
 <br>
-<img src = "https://github.com/Viknesh-Rajaramon/Stock-Price-Forecasting/blob/main/Forecast.png" width="800">
+<img src = "https://github.com/Viknesh-Rajaramon/Stock-Price-Forecasting/blob/main/Forecast.png" width="1000">
 
 
 ## To Run
